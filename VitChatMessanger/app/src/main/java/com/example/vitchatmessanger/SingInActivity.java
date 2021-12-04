@@ -65,6 +65,7 @@ public class SingInActivity extends AppCompatActivity {
         if (auth.getCurrentUser() != null) {
             startActivity(new Intent(SingInActivity.this, UserListActivity.class));
         }
+
     }
 
     private void loginSingUpUser(String email, String password) {

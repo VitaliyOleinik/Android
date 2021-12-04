@@ -65,6 +65,16 @@ public class ChatActivity extends AppCompatActivity {
     private StorageReference chatImageStorageReference;
 
 
+    /*@Composable
+    fun Greeting(name: String) {
+        Text (text = "Hello $name!")
+    }
+
+    @Preview
+    @Composable
+    fun PreviewGreeting() {
+        Greeting("Android")
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
